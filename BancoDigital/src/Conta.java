@@ -21,6 +21,10 @@ public abstract class Conta implements IConta {
         contaDestino.depositar(valor);
     }
 
+    public Conta(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
     public int getAgencia() {
         return agencia;
     }

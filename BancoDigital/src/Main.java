@@ -4,7 +4,7 @@ public class Main {
 		venilton.setNome("Venilton");
 		
 		Conta cc = new ContaCorrente(venilton);
-		Conta poupanca = new ContaPoupanca(venilton);
+		Conta poupanca = new ContaPoupança(venilton);
 
 		cc.depositar(100);
 		cc.transferir(100, poupanca);
